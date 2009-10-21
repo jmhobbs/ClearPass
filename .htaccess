@@ -1,0 +1,5 @@
+# Guess what. Don't change this.
+<File config.php>
+	Order deny,allow
+	Deny from all
+</file>
