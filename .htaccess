@@ -1,10 +1,10 @@
 DirectoryIndex index.php
-# Guess what. Don't change this.
-<File config.php>
+# Guess what. Don"t change this.
+<Files "config.php">
 	Order deny,allow
 	Deny from all
-</File>
-<File .htaccess>
+</Files>
+<Files ".htaccess">
 	Order deny,allow
 	Deny from all
-</file>
+</Files>
