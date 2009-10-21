@@ -1,0 +1,57 @@
+.finger {
+	cursor: pointer;
+}
+
+.cp-log-inform {
+	color: #00C0C0;
+}
+
+.cp-log-warn {
+	color: #FFA858;
+}
+
+.cp-log-fatal {
+	color: #000;
+	background: #FFFF00;
+	font-weight: bold;
+	padding: 3px;
+	display: block;
+}
+
+.cp-log-data-in {
+	color: #FF6EC8;
+}
+
+.cp-log-data-out {
+	color: #B2FF7E;
+}
+
+.cp-log-date {
+	float: right;
+	font-size: 6px;
+	font-style: italic;
+}
+
+#cp-modal {
+	width: 100%;
+	height: 100%;
+	background: #000;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
+	filter: alpha(opacity=85);
+	opacity: .85;
+	position: absolute;
+	display: none;
+	top: 0;
+	left: 0;
+}
+
+.modal {
+	display: none;
+	position: absolute;
+	display: none;
+	top: 35%;
+	left: 35%;
+	width: 30%;
+	z-index: 10;
+	background: #FFF;
+}
